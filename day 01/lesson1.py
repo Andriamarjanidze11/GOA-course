@@ -10,7 +10,7 @@
 
 name = "Dudu" #ეს არის str (string) ტიპის ცვლადი
 surname = "Marjanidze"
-age = 13 #ეს არის int (integer) მთელი რიცხვი
+age = 12 #ეს არის int (integer) მთელი რიცხვი
 height = 155.6 #ეს არის float ტიპის ცვლადი (ათწილადი)
 #boolean (bool) ტიპის ცვლადი
 
@@ -32,3 +32,5 @@ is_ugly = False
 
 print(name + " " + str(age))
 
+
+print(name + " " + surname + " " + str(age) + " " + str(height))
