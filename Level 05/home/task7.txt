@@ -1,0 +1,5 @@
+გავეცანი ინფორმაციას:https://www.w3schools.com/python/python_strings.asp
+გავეცანი ინფორმაციას:https://www.w3schools.com/python/python_numbers.asp
+გავეცანი ინფორმაციას:https://www.w3schools.com/python/python_variables.asp
+
+
