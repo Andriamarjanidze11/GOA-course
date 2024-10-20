@@ -1,0 +1,1 @@
+შევისწავლე ტეგები:header,title,img,body,h1.
