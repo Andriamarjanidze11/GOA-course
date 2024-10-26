@@ -1,0 +1,2 @@
+container tags-არის ისეთი ტეგები რომლებსაც დახურვა აქვთ.მაგალითად:<button></button>
+empty tags-არის ისეთი ტეგები,რომლებსაც არ აქვთ დახურვა.მაგალითად:<img src ="https:efwsfew" alt = "">
