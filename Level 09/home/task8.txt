@@ -1,0 +1,2 @@
+გავეცანი იმფორმაციას:https://www.w3schools.com/python/gloss_python_logical_operators.asp
+გავეცანი ინფორმაციას:https://www.geeksforgeeks.org/python-logical-operators/

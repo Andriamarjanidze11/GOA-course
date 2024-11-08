@@ -1,0 +1,2 @@
+გავეცანი ინფორმაციას:https://www.w3schools.com/python/gloss_python_comparison_operators.asp
+გავეცანი ინფორმაციას:https://www.geeksforgeeks.org/relational-operators-in-python/
