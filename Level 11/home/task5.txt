@@ -1,0 +1,1 @@
+conditional statements-არის პირობითი განცხადებები მაგალითად:if,elif,else.
