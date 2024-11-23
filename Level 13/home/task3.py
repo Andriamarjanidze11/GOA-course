@@ -1,9 +1,9 @@
-password = input()
+password = input('enter your password: ')
 
 while password == 'group55':
     print('you are right')
     break
 else:
-    print('ypu are wrong')
+    print('you are wrong')
 
 
