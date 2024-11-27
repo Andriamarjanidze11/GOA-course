@@ -1,0 +1,1 @@
+გავეცანი ინფორმაციას:https://www.w3schools.com/python/python_for_loops.asp#:~:text=Learn%20how%20to%20use%20for%20loops%20to%20iterate%20over
