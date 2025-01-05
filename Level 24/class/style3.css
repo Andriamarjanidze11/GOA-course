@@ -1,0 +1,17 @@
+p {
+    font-family: Roboto, cursive , monospace;
+
+    font-weight: 700;
+
+    font-style: italic;
+
+    font-size:2em
+}
+
+/*font-family - ცვლის ტექსტის სახეობას.
+Roboto-ტექსტის სტანდარტული სტილია.
+cursive-ტექსტის ასოებს ხრის.
+monospace-ტექსტის ასოებს ხრის ისევე როგორც "cursive".
+font-weight - ცვლის თუ როგორი მუქია ტექსტი.
+font-style - ცვლის ტექსტის სტილს.
+font-size - ცვლის ტექსტის ზომას.
