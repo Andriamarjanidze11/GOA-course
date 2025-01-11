@@ -1,0 +1,36 @@
+/*
+uppercase - ტექსტის ყველა ასოს დიდ ასოდ გადააქცევს
+lowercase - ტექსტის ყველა ასოს პატარა ასოდ გადააქცევს
+capitalize - ტექსტის ყველა სიტყვის პირველ ასოს დიდ ასოდ გადააქცევს
+text-shadow - ტექსტს აძლევს ჩრდილს,ის შეგვიძლია გავხადოთ უფრო დაბურული,ან სხვა ფერად გადავაქციოთ.
+line-height - ცვლის თუ რამდენი პიქსელითაა დაშორებული სიტყვები.
+text-align - ცვლის საიტის რომელ მხარეზეა ტექსტი განლაგებული.
+
+
+*/
+
+
+.heading1 {
+    text-transform: uppercase;
+    text-shadow: 5px,10px,87px ,red;
+    line-height: 1,5px;
+    text-align: center;
+}
+
+.heading2 {
+    text-transform: lowercase;
+    text-shadow: 55px,43px,77px blue;
+    line-height: 1,9px;
+    text-align: right;
+}
+
+.heading3 {
+    text-transform: capitalize;
+    text-shadow: 36px,87px,93px ,brown;
+    line-height: 1,7px;
+    text-align: left;
+}
+
+
+
+
