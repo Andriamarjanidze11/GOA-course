@@ -1,0 +1,10 @@
+.h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.div {
+    align-items: center;
+    background-image: url('https://cdn.webshopapp.com/shops/94414/files/52440074/flag-of-ukraine.jpg');
+}

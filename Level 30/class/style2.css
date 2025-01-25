@@ -1,0 +1,21 @@
+body {
+    background-color: cyan;
+}
+
+
+.h1 {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+
+
+div {
+    display: flex;
+    font-size: 15px;
+}
+
+li {
+    list-style-type:lower-alpha;
+}
+
