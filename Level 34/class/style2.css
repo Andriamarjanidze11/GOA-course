@@ -1,0 +1,44 @@
+table {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border-collapse: collapse;
+    border-width: 0;
+}
+
+.tr1 {
+    color: white;
+    background-color: #101714;
+    height: 45px;
+}
+
+.tr2 {
+    color: white;
+    background-color: #4072e6;
+    height: 45px;
+}
+
+.tr3 {
+    color: white;
+    background-color: #139c1c;
+    height: 45px;
+}
+
+.tr4 {
+    color: white;
+    background-color: #f2c935;
+    height: 45px;
+}
+
+.tr5 {
+    color: white;
+    background-color: #f24444;
+    height: 45px;
+}
+
+.tr6 {
+    color: white;
+    background-color: #6ebcd4;
+    height: 45px;
+}
+

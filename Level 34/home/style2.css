@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.tr1 {
+    font-family: monospace;
+    height: 80px;
+    font-size: 30px;
+    color: white;
+    background-color: #46DDB2;
+    width: 300px;
+}
+
+tr:hover {
+    background-color:#84FAD9
+}

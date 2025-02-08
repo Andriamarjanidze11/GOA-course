@@ -1,0 +1,44 @@
+/* a:link
+a:visited
+a:active
+a:hover */
+
+a:visited {
+    color: antiquewhite;
+    letter-spacing: 10px;
+}
+
+a:visited {
+    color: aqua;
+    letter-spacing: 15px;
+}
+
+a:link {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a:link {
+    font-weight: 4px;
+    font-size: 10px;
+}
+
+a:hover {
+    color: red;
+    border-radius: 50%;
+}
+
+a:hover {
+    color: black;
+    border-radius: 12%;
+}
+
+a:active {
+    font-style: italic;
+    letter-spacing: 23px;
+}
+
+a:active {
+    font-style: cursive;
+    letter-spacing: 11px;
+}

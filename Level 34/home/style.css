@@ -1,0 +1,66 @@
+table {
+    border-collapse: collapse;
+    width:55%;
+    align-items: center;
+}
+
+.tr1 {
+    height: 45px;
+    background-color: #B152B1;
+    color: white;
+    border-radius: 5%;
+}
+
+.tr2 {
+    height: 45px;
+    background-color: #ECE3EC;
+    color: #656065;
+}
+
+.tr3 {
+    height: 45px;
+    background-color: white;
+    color: #656065;
+}
+
+.tr4 {
+    height: 45px;
+    background-color: #ECE3EC;
+    color: #656065;
+}
+
+.tr5 {
+    height: 45px;
+    background-color: white;
+    color: #656065;
+}
+
+.tr6 {
+    height: 45px;
+    background-color: #ECE3EC;
+    color: #656065;
+}
+
+.tr7 {
+    height: 45px;
+    background-color: white;
+    color: #656065;
+}
+
+.tr8 {
+    height: 45px;
+    background-color: #ECE3EC;
+    color: #656065;
+}
+
+.tr8 {
+    height: 45px;
+    background-color: #ECE3EC;
+    color: #656065;
+}
+
+.tr9 {
+    height: 45px;
+    background-color: white;
+    color: #656065;
+}
