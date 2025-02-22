@@ -1,0 +1,32 @@
+div {
+    width: 300px;
+    height: 200px;
+    background-color: coral;
+    text-align: center;
+    margin: 30px;
+
+    font-size: 2em;
+    display: block;
+}
+
+button {
+    width: 300px;
+    height: 200px;
+    background-color: coral;
+    text-align: center;
+    margin: 30px;
+
+    font-size: 2em;
+    display: block;
+}
+
+p {
+    width: 300px;
+    height: 200px;
+    background-color: coral;
+    text-align: center;
+    margin: 30px;
+
+    font-size: 2em;
+    display: block;
+}

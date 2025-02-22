@@ -1,0 +1,16 @@
+.masked-element {
+    -webkit-mask-image: url(mask.png);
+    mask-image: url(mask.png);
+}
+
+.blurred-background {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.clipped-element {
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+}
+
+

@@ -1,0 +1,186 @@
+.div1 {
+    width: 300px;
+    height: 200px;
+    background-color: coral;
+    text-align: center;
+    margin: 30px;
+    border-radius: 5%;
+
+    font-size: 2em;
+    display: inline;
+}
+
+.div2 {
+    width: 350px;
+    height: 300px;
+    background-color: blue;
+    text-align: left;
+    margin: 40px;
+    border-radius: 7%;
+
+    font-size: 1em;
+    display: inline;
+}
+
+.div3 {
+    width: 360px;
+    height: 370px;
+    background-color: black;
+    text-align: right;
+    margin: 45px;
+    border-radius: 3%;
+
+    font-size: 3em;
+    display: inline;
+}
+
+.div4 {
+    width: 330px;
+    height: 360px;
+    background-color: pink;
+    text-align: center;
+    margin: 35px;
+    border-radius: 6%;
+
+    font-size: 4em;
+    display: inline;
+}
+
+.div5 {
+    width: 380px;
+    height: 330px;
+    background-color: chartreuse;
+    text-align: center;
+    margin: 37px;
+    border-radius: 10%;
+
+    font-size: 6px;
+    display: inline;
+}
+
+.btn1 {
+    width: 80px;
+    height: 60px;
+    background-color: chartreuse;
+    text-align: center;
+    margin: 37px;
+    border-radius: 10%;
+
+    font-size: 6px;
+    display: block;
+}
+
+.btn2 {
+    width: 85px;
+    height: 70px;
+    background-color: red;
+    text-align: right;
+    margin: 47px;
+    border-radius: 20%;
+
+    font-size: 3px;
+    display: block;
+}
+
+.btn3 {
+    width: 76px;
+    height: 40px;
+    background-color: brown;
+    text-align: left;
+    margin: 35px;
+    border-radius: 18%;
+
+    font-size: 8px;
+    display: block;
+}
+
+.btn4 {
+    width: 78px;
+    height: 45px;
+    background-color:blueviolet;
+    text-align: center;
+    margin: 30px;
+    border-radius: 5%;
+
+    font-size: 5px;
+    display: block;
+}
+
+.btn5 {
+    width: 90px;
+    height: 50px;
+    background-color:aqua;
+    text-align: left;
+    margin: 39px;
+    border-radius: 15%;
+
+    font-size: 8px;
+    display: block;
+}
+
+.p1 {
+    width: 90px;
+    height: 50px;
+    color: coral;
+    background-color:aqua;
+    text-align: left;
+    margin: 39px;
+    border-radius: 18%;
+
+    font-size: 8px;
+    display: inline-block;
+}
+
+.p2 {
+    width: 60px;
+    height: 70px;
+    color: coral;
+    background-color:blueviolet;
+    text-align: right;
+    margin: 20px;
+    border-radius: 10%;
+
+    font-size: 9px;
+    display: inline-block;
+}
+
+
+.p3 {
+    width: 95px;
+    height: 65px;
+    color: coral;
+    background-color:blue;
+    text-align: left;
+    margin: 40px;
+    border-radius: 14%;
+
+    font-size: 3px;
+    display: inline-block;
+}
+
+
+.p4 {
+    width: 85px;
+    height: 95px;
+    color: coral;
+    background-color:antiquewhite;
+    text-align: center;
+    margin: 29px;
+    border-radius: 16%;
+
+    font-size: 4px;
+    display: inline-block;
+}
+
+.p5 {
+    width: 35px;
+    height: 20px;
+    color: coral;
+    background-color:whitesmoke;
+    text-align: right;
+    margin: 45px;
+    border-radius: 20%;
+
+    font-size: 8px;
+    display: inline-block;
+}
