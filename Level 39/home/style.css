@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+}
+
+
+.div1 {
+    width: 500px;
+    height: 500px;
+    background-color: coral;
+    text-align: center;
+    display: inline-block;
+    transition: 1s;
+} 
+
+.div1:hover {
+    transform: rotateX(45deg);
+}
+
+.div2 {
+    width: 350px;
+    height: 400px;
+    background-color: coral;
+    text-align: center;
+    display: inline-block;
+    transition: 1s;
+} 
+
+.div2:hover {
+    transform: rotateX(70deg);
+}
+
+.div3 {
+    width: 370px;
+    height: 300px;
+    background-color: coral;
+    text-align: center;
+    display: inline-block;
+    transition: 1s;
+} 
+
+.div3:hover {
+    transform: translate(0px, -20px);
+}

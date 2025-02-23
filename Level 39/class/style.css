@@ -1,0 +1,17 @@
+div {
+    width: 350px;
+    height: 300px;
+    color: antiquewhite;
+    font-size: 2em;
+    background-color: coral;
+    font-family: monospace;
+    text-align: center;
+    border: 2px solid black;
+    margin: 30px;
+    
+    transition: 0.5s;
+    transform: scaleX(30px) skewX(40deg) rotateX(350deg) translateX(300px);
+}
+div:hover {
+    border-radius: 10%;
+}
