@@ -1,0 +1,22 @@
+.div1 {
+    width: 350px;
+    height: 350px;
+    background-color: coral;
+    border: 1px;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 2em;
+    color: antiquewhite;
+    /* transition-duration: 1s;
+    transition-delay: 0,1s;
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
+    transition-property: all; */
+    transition: 1s 0s cubic-bezier(1, 0, 0, 1) all;
+}
+
+div:hover {
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    background-color: cornflowerblue;
+}
