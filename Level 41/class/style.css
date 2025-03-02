@@ -1,0 +1,19 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+
+    animation-name: css;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
+
+@keyframes css {
+    0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:yellow; left:200px; top:0px;}
+50%  {background-color:blue; left:200px; top:200px;}
