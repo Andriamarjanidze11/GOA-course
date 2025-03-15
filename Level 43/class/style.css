@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --color: red;
+    --backgroundColor: coral;
+    --fontSize: 2em;
+    --letterSpacing: 10px;
+    --display1: inline;
+    --display2: block;
+    --display3: inline-block;
+    --padding: 20px;
+    --marging:15px;
+    --position: relative;
+    --transform: rotate(45deg);
+    --transition:1s;
+
+}
+
+.div1 {
+    color: var(--color);
+    background-color: var(--backgroundColor);
+    font-size: var(--fontSize);
+    display: var(--display3);
+}
+
+.p1 {
+    display: var(--display2);
+    letter-spacing: var(--letterSpacing);
+    position: var(--position);
+    margin: var(--margin);
+    color: var(--color);
+}
+
+.btn1 {
+    color: var(--color);
+    transform: var(--transform);
+    transition: var(--transition);
+    background-color: var(--backgroundColor);
+}
+
+
+
