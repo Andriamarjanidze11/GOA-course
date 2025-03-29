@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+
+    grid-template-areas: 
+    'aside header header sect1'
+    'aside sect2 sect3 nav'
+    'aside sect4 sect5 nav'
+    ;
+
+    display: grid;
+
+
+    grid-template-columns: 150px 3fr 3fr 200px;
+    grid-template-rows:  150px 3fr 3fr 100px;
+}
+
+header {
+    border: 1px solid black;
+    background-color: greenyellow;
+    text-align: center;
+    align-content: center;
+}
+
+aside {
+    border: 1px solid black;
+    background-color: greenyellow;
+    text-align: center;
+    align-content: center;
+}
+
+.sect1 {
+    border: 1px solid black;
+    background-color: red;
+    text-align: center;
+    align-content: center;
+}
+
+.sect2 {
+    border: 1px solid black;
+    background-color: orangered;
+    text-align: center;
+    align-content: center;
+}
+
+.sect3 {
+    border: 1px solid black;
+    background-color: red;
+    text-align: center;
+    align-content: center;
+}
+
+.sect4 {
+    border: 1px solid black;
+    background-color: red;
+    text-align: center;
+    align-content: center;
+}
+
+.sect5 {
+    border: 1px solid black;
+    background-color: orangered;
+    text-align: center;
+    align-content: center;
+}
+
+nav {
+    border: 1px solid black;
+    background-color: greenyellow;
+    text-align: center;
+    align-content: center;
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: aside;
+}
+
+.sect1 {
+    grid-area: sect1;
+}
+
+.sect2 {
+    grid-area: sect2;
+}
+
+.sect3 {
+    grid-area: sect3;
+}
+
+.sect4 {
+    grid-area: sect4;
+}
+
+.sect5 {
+    grid-area: sect5;
+}
+
+nav {
+    grid-area: nav;
+}
