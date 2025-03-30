@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #353535;
+    color: white;
+    font-family: cursive;
+    height: 100%;
+    display: flex;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+}
+
+
+
+
+.image {
+    width: 350px;
+    height: 370px;
+    align-items: center;
+}
+
+.text {
+    font-family: monospace;
+    font-size: 1,3em;
+    
+}
+
+@media (max-width:400px) {
+    .content {
+    flex-direction: column-reverse;
+    }
+
+    header {
+        display: none;
+    }
+}
