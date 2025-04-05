@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+.div1 {
+    background-color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="button"] {
+    width: 100px;
+    height: 20px;
+}
