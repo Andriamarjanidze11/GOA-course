@@ -4,6 +4,12 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>5-Day Juicing Challenge</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>5-Day Juicing Challenge</title>
 <style>
     
 * {
@@ -11,38 +17,41 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Helvetica Neue', sans-serif;}
-
     body {
-    background: url('http://127.0.0.1:5500/bf0b044-012f-5541-235-6e3b5ce8b714_Untitled_design_-_2023-05-28T191349.280.jpg') no-repeat center center;
+    background: url('http://127.0.0.1:5500/bf0b044-012f-5541-235-6e3b5ce8b714_Untitled_design_-_2023-05-28T191349.280.jpg') no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
-    position: relative;
+    background-attachment: fixed;
     }
 
     .overlay {
     background-color: rgba(0,0,0,0.4);
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: 1;
     }
 
     .logo {
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 10px;
     width: 100px;
+    z-index: 2;
     }
 
     nav {
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 10px;
     display: flex;
     gap: 15px;
     font-size: 14px;
     color: white;
+    z-index: 2;
+    padding: 20px;
     }
 
     input[type=text] {
@@ -50,6 +59,7 @@
         height: 35px;
         border-radius: 5px;
         border: none;
+        margin: 10px;
     }
 
     input[type=email] {
@@ -57,6 +67,7 @@
         height: 35px;
         border-radius: 5px;
         border: none;
+        margin: 10px;
     }
 
     .btn1 {
@@ -67,13 +78,14 @@
         border: none;
         color: white;
         font-size: 15px;
+        margin: 20px;
     }
 
     .main-content {
-    position: relative;
-    top: 45vh;
+    padding-top: 40vh;
     text-align: center;
     color: white;
+    margin-bottom: 100px;
     }
 
     .main-content h1 {
@@ -90,6 +102,118 @@
     font-size: 16px;
     border-radius: 25px;
     cursor: pointer;
+    margin: 20px;
+    }
+... (102 lines left)
+Collapse
+message.txt
+5 KB
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>5-Day Juicing Challenge</title>
+<style>
+    
+
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+    }
+    
+    
+    
+body {
+    background: url('http://127.0.0.1:5500/bf0b044-012f-5541-235-6e3b5ce8b714_Untitled_design_-_2023-05-28T191349.280.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    }
+
+    .overlay {
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    }
+
+    .logo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    z-index: 2;
+    }
+
+    nav {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    color: white;
+    z-index: 2;
+    padding: 20px;
+    }
+
+    input[type=text] {
+        width: 370px;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+        margin: 10px;
+    }
+
+    input[type=email] {
+        width: 370px;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+        margin: 10px;
+    }
+
+    .btn1 {
+        width: 270px;
+        height: 40px;
+        background-color: #FF5B00;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-size: 15px;
+        margin: 20px;
+    }
+
+    .main-content {
+    padding-top: 40vh;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+    }
+
+    .main-content h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    }
+
+    .main-content .btn {
+    background-color: #FF5B00;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 20px;
     }
 
     .footer {
@@ -97,19 +221,61 @@
     color: white;
     text-align: center;
     padding: 40px 20px;
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    margin-top: 100px;
     }
 
     .footer p {
     font-size: 18px;
     line-height: 1.6;
+    margin: 20px 0;
+    }
+
+    .dotted-line {
+        border-top: 2px dotted white;
+        width: 50%;
+        margin: 40px auto;
+    }
+
+    .program-title {
+        color: red;
+        font-size: 32px;
+        margin: 40px 0;
+        font-family: Quattrocento Sans;
+    }
+
+    .learn-more-btn {
+        background-color: #FF5B00;
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        font-size: 16px;
+        border-radius: 25px;
+        cursor: pointer;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .program-section {
+        background-color: white;
+        padding: 40px 20px;
+        margin-top: 40px;
+    }
+
+    .program-image {
+        max-width: 600px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
     }
 </style>
 </head>
 <body>
-    <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/450406/settings_images/9cGwDZRRi4lfOuGD2ogo_preview-full-FullyRaw-logo-with-emblishment.png" alt="Background" class="logo" style="width: 300px; height: auto;">
+
+
+
+    <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/450406/settings_images/9cGwDZRRi4lfOuGD2ogo_preview-full-FullyRaw-logo-with-emblishment.png" alt="Background" class="logo" style="width: 400px; height: auto; left: 20px;">
 <nav>
     <span>START HERE</span>
     <span>ABOUT KRISTINA</span>
@@ -138,6 +304,11 @@
         <input type="email" placeholder="Email">
         <button class="btn1">Submit</button>
     </form>
+    <div class="dotted-line"></div>
+    <div class="program-section">
+        <h2 class="program-title">Buy program</h2>
+        <img src="588578-7d28-481c-a1bd-2da04d1a85_FullyRaw_Bundle_2025.jpg" alt="" class="program-image">
+        <button class="learn-more-btn">Learn More</button>
+    </div>
     </div>
 </body>
-</html>
