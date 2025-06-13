@@ -1,0 +1,5 @@
+ვისწავლე:
+is()
+preventExtensions()
+isExtensible()
+assign().
