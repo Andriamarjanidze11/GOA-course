@@ -1,0 +1,1 @@
+გავეცანი ინფორმაციას:https://www.programiz.com/javascript/setTimeout,https://www.geeksforgeeks.org/setTimeout-in-JavaScript/,https://www.w3schools.com/jsref/met_win_settimeout.asp.
