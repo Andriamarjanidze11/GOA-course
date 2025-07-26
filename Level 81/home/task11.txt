@@ -1,0 +1,1 @@
+გავეცანი ინფორმაციას:https://www.geeksforgeeks.org/explain-the-differences-between-for-in-and-for-of-statement-in-javascript/.
