@@ -1,0 +1,1 @@
+გავეცანი ინფორმაციას:https://medium.com/@narenss/es6-enhanced-object-literals-bbae848e1750#:~:text=ES6%20enhanced%20object%20literals%20is,by%20using%20enhanced%20object%20literals.&text=An%20easier%2C%20simpler%20syntax%20for,offered%20by%20enhanced%20object%20literals.

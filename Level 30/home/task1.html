@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Frontend Mentor | Social links profile</title>
+    <style>
+body {
+    background-color: #141414;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
 
+main {
+    min-width: 327px;
+    max-width: 384px;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    background-color: #1F1F1F;
+    border-radius: 12px;
+
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+}
+
+.name {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.location {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 150%;
+    color: #C4F82A;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.description {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    gap: 16px;
+    align-content: center;
+}
+
+.links li {
+    display: block;
+    background-color: #333333;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 600ms, color 600ms;
+}
+
+.links li:hover {
+    background-color: #C4F82A;
+    color: #333333;
+}
+
+
+</style>
+</head>
+<body>
+<main>
+    <div class="card">
+        <img class="avatar" src="images/avatar-jessica.jpeg" alt="Jessica Randall photograph">
+        <div class="name-and-location">
+            <div class="name">Jessica Randall</div>
+            <div class="location">London, United Kingdom</div>
+        </div>
+        <div class="description">"Front-end developer and avid reader."</div>
+        <ul class="links">
+            <li>GitHub</li>
+            <li>Frontend Mentor</li>
+            <li>LinkedIn</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+        </ul>
+    </div>
+</main>
+</body>
+</html>
