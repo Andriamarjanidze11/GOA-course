@@ -1,0 +1,1 @@
+const sumNumbers = (...numbers) => numbers.reduce((total, num) => total + num, 0);
