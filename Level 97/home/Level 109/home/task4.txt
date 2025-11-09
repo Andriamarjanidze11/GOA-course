@@ -1,0 +1,1 @@
+გავეცანი ინფორმაციას:https://www.geeksforgeeks.org/reactjs/reactjs-virtual-dom/.

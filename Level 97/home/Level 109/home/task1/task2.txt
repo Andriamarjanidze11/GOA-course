@@ -1,0 +1,21 @@
+JSX ელემენტების დასარენდებელად საჭიროა რომ პირველ რიგში დავაიმპორტოტ რეაქტი რეაქტის ბიბლიოთეკიდან:
+import React from 'react'
+
+
+გადმოვიტანოთ დასარენდერებელი ელემენტი:
+const container = document.getElementById('app')
+
+
+
+შემდეგ შევქმნათ ფესვი:
+import { createRoot } from 'react-dom/client';
+
+შევქმნათ დასარენდერებელი ელემენტისგან ფესვი:
+const root = createRoot(container)
+
+
+და შემდეგ დავარენდეროთ .render მეთოდით.
+root.render(<h1>Hello world</h1>)
+
+
+
