@@ -1,0 +1,1 @@
+class და classname-ში განსხვავება ისაა, რომ class-ს ვიყენებთ მხოლოდ HTML file-ში, ხოლო className-ს ვიყენებთ React-ში.

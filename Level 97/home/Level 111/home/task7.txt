@@ -1,0 +1,1 @@
+გავეცანი ინფორმაციას:https://react.dev/reference/react/createElement.
